@@ -1,0 +1,47 @@
+
+
+div{
+    background-color: rgb(5, 83, 56);
+    direction: ltr;
+    text-align: left;
+    padding-right: 30px;
+}
+
+ul.Menu li{
+    display: inline-block;
+}
+
+ul.Menu li a{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-decoration: none;
+}
+
+ul.sub{
+    display: none;
+    position: absolute;
+    
+}
+
+ul.opt{
+    display: none;
+    position: absolute;
+}
+
+ul.Menu li:hover{
+    background-color: chocolate;
+}
+
+ul.Menu li:hover ul.sub{
+    display: block;
+    width: 110px;
+    background-color: rgb(147, 210, 30);
+    
+}
+
+ul.sub li:hover ul.Opt{
+    display: block;
+    width: 110px;
+    background-color: rgb(109, 54, 15);
+}
